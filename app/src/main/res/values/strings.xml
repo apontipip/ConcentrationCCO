@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Расчёт концентраций растворов</string>
+    <string name="FirtScale"> Первое показание шкалы каустика</string>
+    <string name="enter_the_readings_of_the_scales"> Введите показания шкалы бюретки:</string>
+    <string name="two_scale"> Второе показание шкалы каустика</string>
+    <string name="calculate">ВыЧиСлИтЬ</string>
+    <string name="try_scale"> Показания шкалы оксонии</string>
+    <string name="output_caust"> Концентрация каустика:</string>
+    <string name="output_carbon"> Концентрация карбонатов:</string>
+    <string name="output_oxony"> Концентрация оксонии:</string>
+    <string name="back_pressed">Нажмите назад ещё раз что бы выйти</string>
+
+</resources>
