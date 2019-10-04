@@ -11,7 +11,7 @@ import java.lang.Float.parseFloat
 
 class MainActivity(internal var numberScale1: EditText? = null, internal var numberScale2: EditText? = null) : AppCompatActivity(), View.OnClickListener{
     internal lateinit var numberScale3: EditText
-    internal lateinit var resultFieldCaust: TextView// текстовое поле для вывода результата
+    internal lateinit var resultFieldCaust: TextView// текстовое поле для вывода результата каустика
     internal lateinit var resultFieldCarb: TextView // текстовое поле для вывода результата
     internal lateinit var resultFieldOx: TextView // текстовое поле для вывода результата
     internal lateinit var calculateRes: Button
@@ -44,6 +44,9 @@ class MainActivity(internal var numberScale1: EditText? = null, internal var num
         var caustic = 0f
         var carbonats = 0f
         var oxony = 0f
+        var kislota = 0f
+
+
 
 
         // читаем EditText и заполняем переменные числами
